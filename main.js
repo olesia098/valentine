@@ -10,6 +10,8 @@ const can1 = document.getElementById("can1");
 
 const can = document.getElementById("can");
 
+const containar = document.querySelector(".containar")
+
 noBtn.addEventListener("click", () => {
   yesBtn.style.width = `${yesBtn.offsetWidth + 40}px`;
 
@@ -21,5 +23,6 @@ yesBtn.addEventListener("click", () => {
   yayText1.style.display = "block";
   can.style.display = "none";
   can1.style.display = "none";
-  
+  containar.style.display = "none"
+  containar.style.height = "0px"
 });
